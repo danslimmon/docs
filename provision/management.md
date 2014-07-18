@@ -6,35 +6,35 @@ For general information about accessing this API, see the [main section](README.
 
 ## Table of Contents
 
-[/provision/manage/content/\<model\>/](#provisionmanagecontentmodel) - list, create, or delete content 
+[/provision/manage/content/&lt;model&gt;/](#provisionmanagecontentmodel) - list, create, or delete content 
 
-[/provision/manage/content/\<model\>/\<id\>](#provisionmanagecontentmodelid) - get content information, groups  or blob, upload content, delete content
+[/provision/manage/content/&lt;model&gt;/&lt;id&gt;](#provisionmanagecontentmodelid) - get content information, groups  or blob, upload content, delete content
 
-[/provision/manage/group/\<model\>/](#provisionmanagegroupmodel) - show groups, create group, delete group
+[/provision/manage/group/&lt;model&gt;/](#provisionmanagegroupmodel) - show groups, create group, delete group
 
-[/provision/manage/group/\<model\>/\<id\>](#provisionmanagegroupmodelid) - get group description, get group membership, delete group    
+[/provision/manage/group/&lt;model&gt;/&lt;id&gt;](#provisionmanagegroupmodelid) - get group description, get group membership, delete group    
 
-[/provision/manage/group/\<model\>/\<id\>/](#provisionmanagegroupmodelid-1) - list group info, list types with group membership, get group member info, get group member id, add or update group members, delete group members
+[/provision/manage/group/&lt;model&gt;/&lt;id&gt;/](#provisionmanagegroupmodelid-1) - list group info, list types with group membership, get group member info, get group member id, add or update group members, delete group members
  
 [/provision/manage/model/](#provisionmanagemodel) - list models, list shared models, create model, delete model
 
-[/provision/manage/model/\<model\>](#provisionmanagemodelmodel) - get model info, update model, delete model
+[/provision/manage/model/&lt;model&gt;](#provisionmanagemodelmodel) - get model info, update model, delete model
 
-[/provision/manage/model/\<model\>/](#provisionmanagemodelmodel-1) - list serial numbers, get serial number JSON object, add serial number(s), remove serial number(s)
+[/provision/manage/model/&lt;model&gt;/](#provisionmanagemodelmodel-1) - list serial numbers, get serial number JSON object, add serial number(s), remove serial number(s)
 
-[/provision/manage/model/\<model\>/\<sn\>](#provisionmanagemodelmodelsn) - get client RID, list serial number groups, get serial number activation log, create client from model, map client to new serial number, regenerate CIK, disable CIK, delete serial number
+[/provision/manage/model/&lt;model&gt;/&lt;sn&gt;](#provisionmanagemodelmodelsn) - get client RID, list serial number groups, get serial number activation log, create client from model, map client to new serial number, regenerate CIK, disable CIK, delete serial number
 
-[/provision/manage/share/\<model\>/](#provisionmanagesharemodel) - list vendors that share a model, create a model share, delete a model share.
+[/provision/manage/share/&lt;model&gt;/](#provisionmanagesharemodel) - list vendors that share a model, create a model share, delete a model share.
 
-[/provision/manage/share/\<model\>/\<vendorname\>](#provisionmanagesharemodelvendorname) - find out if model is shared with a vendor, delete model share 
+[/provision/manage/share/&lt;model&gt;/&lt;vendorname&gt;](#provisionmanagesharemodelvendorname) - find out if model is shared with a vendor, delete model share 
 
 [/provision/register](#provisionregister) - get registered vendor name for cik, register vendor name for CIK, unregister vendor name from CIK
 
 [/provision/admin/auth](#provisionadminauth) - list vendor token ids, create vendor token, delete vendor token
 
-[/provision/admin/auth/\<id\>](#provisionadminauthid) - get vendor token, delete vendor token
+[/provision/admin/auth/&lt;id&gt;](#provisionadminauthid) - get vendor token, delete vendor token
 
-## /provision/manage/content/\<model\>/
+## /provision/manage/content/&lt;model&gt;/
 
 ### GET - list content ids
 
@@ -155,7 +155,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/content/\<model\>/\<id\>
+## /provision/manage/content/&lt;model&gt;/&lt;id&gt;
 
 ### GET - get content info
 
@@ -383,7 +383,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/group/\<model\>/
+## /provision/manage/group/&lt;model&gt;/
 
 ### GET - show groups
 
@@ -475,7 +475,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/group/\<model\>/\<id\>
+## /provision/manage/group/&lt;model&gt;/&lt;id&gt;
 
 ### GET - get group description 
 
@@ -558,7 +558,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/group/\<model\>/\<id\>/
+## /provision/manage/group/&lt;model&gt;/&lt;id&gt;/
 
 ### GET - list group info
 
@@ -914,7 +914,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/model/\<model\> 
+## /provision/manage/model/&lt;model&gt; 
 
 ### GET - get model info
 
@@ -991,7 +991,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/model/\<model\>/
+## /provision/manage/model/&lt;model&gt;/
 
 Note: If `X-Exosite-Vendor` header is provided, the given `<model>` is one 
 associated to `<Vendorname>`. The calling vendor was identified by 
@@ -1324,7 +1324,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/model/\<model\>/\<sn\> 
+## /provision/manage/model/&lt;model&gt;/&lt;sn&gt; 
 
 Note: If `X-Exosite-Vendor` header is provided, the given `<model>` is one 
 associated to `<Vendorname>`. The calling vendor was identified by 
@@ -1575,7 +1575,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/share/\<model\>/ 
+## /provision/manage/share/&lt;model&gt;/ 
 
 ### GET - list vendors that share a model
 
@@ -1658,7 +1658,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/manage/share/\<model\>/\<vendorname\>
+## /provision/manage/share/&lt;model&gt;/&lt;vendorname&gt;
 
 ### GET - find out if a model is shared
 
@@ -1859,7 +1859,7 @@ Content-Length: 0
 <blank line>
 ```
 
-## /provision/admin/auth/\<id\> 
+## /provision/admin/auth/&lt;id&gt; 
 
 ### GET - get vendor token
 
