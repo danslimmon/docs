@@ -1,77 +1,8 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width">
+---
+layout: default
+---
 
-  <title>Exosite API Documentation</title>
 
-  <!-- Flatdoc -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/legacy.js'></script>
-  <script src='/assets/flatdoc-mod.js'></script>
-
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/favicon.png">
-
-  <!-- Flatdoc theme -->
-  <link  href='http://rstacruz.github.io/flatdoc/v/0.8.0/theme-white/style.css' rel='stylesheet'>
-  <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/theme-white/script.js'></script>
-
-  <link href='/assets/style.css' rel='stylesheet'>
-
-  <!-- Meta -->
-  <meta content="Exosite API" property="og:title">
-  <meta content="Documentation for Exosite's APIs" name="description">
-
-  <!-- Initializer -->
-  <script>
-    Flatdoc.run({
+Flatdoc.run({
       fetcher: Flatdoc.github('exosite/docs', 'rpc/README.md')
-    });
-  </script>
-</head>
-<body role='flatdoc' class="no-literate">
-  <div class='header'>
-    <div class='left'>
-      <a href="/">
-        <img src="/assets/logo.png" id="logo">
-      </a>
-      <ul>
-        <li><a href='http://support.exosite.com'>Support</a></li>
-        <li><a href='http://status.exosite.com'>Status</a></li>
-      </ul>
-    </div>
-    <div class='right'>
-      <li><a href='https://github.com/exosite/api'>Contribute</a></li>
-    </div>
-  </div>
-
-  <div class='content-root'>
-    <div class='menubar'>
-      <ul>
-        <li><a class="level-0" href='/coap'>CoAP API</a></li>
-        <li><a class="level-0" href='/data'>HTTP Data API</a></li>
-        <li><a class="level-0" href='/rpc'>Remote Procedure Call API</a></li>
-        <li><a class="level-0" href='/provision/device'>Device Provisioning API</a></li>
-        <li><a class="level-0" href='/provision/management'>Fleet Management API</a></li>
-        <li><a class="level-0" href='/udp'>UDP Single Shot API</a></li>
-        <li><a class="level-0" href='/commander'>Commander Chat</a></li>
-        <li><a class="level-0" href='/scripting'>Lua Scripting</a></li>
-        <li><a class="level-0" href='/widget'>Custom Widget</a></li>
-      </ul>
-      <div class='menu section' role='flatdoc-menu'></div>
-    </div>
-    <div role='flatdoc-content' class='content'></div>
-  </div>
-
-  <div id="markdown" style="display:none;">
-
-  <div>
-
-  <!-- Custom -->
-  <script src='/assets/main.js'></script>
-
-</body>
-</html>
+});

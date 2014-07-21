@@ -36,6 +36,22 @@
             scrollTop: $(document.location.hash).offset().top
           }, 500);
         }
+
+        // put flatdoc menu inside heading
+        
+        // strip trailing slash
+        var path = document.location.pathname.replace(/\/$/, '');
+        
+        // remove first level 1 menu so it isn't duplicated
+        var menutitle = $('div.menu.section[role=flatdoc-menu] a[class=level-1]');
+        menutitle.detach();
+        
+        $("div.menubar > ul li a").each(function() {
+          if ($(this).attr('href') === path) {
+            // remove title
+            $('div.menu.section[role=flatdoc-menu]').detach().appendTo($(this));
+          }
+        });
       });
   });
 })(window.jQuery)
