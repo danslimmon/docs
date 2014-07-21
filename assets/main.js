@@ -17,7 +17,7 @@
 
           anchors.push(anchor);
           $('<a/>', {
-            name: anchor
+            id: anchor
           }).appendTo(v);  
         });
 
