@@ -20,6 +20,16 @@
             name: anchor
           }).appendTo(v);  
         });
+
+        // Remap markdown files to directories.
+        $('.content a').each(function() {
+          var href = $(this).attr('href');
+          if (typeof(href) === 'string' && href.indexOf('http') != 0){
+            href = href.replace(/README\.md$/, '');
+            href = href.replace(/\.md$/, '/');
+            this.href = href;
+          }
+        });
         
         if(document.location.hash != ""){
           $('html, body').animate({
