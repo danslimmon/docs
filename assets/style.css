@@ -6,6 +6,16 @@
   display: block;
 }
 
+#status-icon {
+    background: none repeat scroll 0% 0% #008000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: none;
+    float: left;
+    visibility: hidden;
+}
+
 a.contribute {
   font-size: 0.88em;
   color: #9090aa;

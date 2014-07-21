@@ -25,6 +25,9 @@
   <meta content="Exosite API" property="og:title">
   <meta content="Documentation for Exosite's APIs" name="description">
 
+  <!-- Status Page API Lib -->
+  <script type="text/javascript" src="https://statuspage-production.s3.amazonaws.com/se.js"></script>
+
   <!-- Initializer -->
   <script>{{ content }}</script>
 </head>
@@ -34,13 +37,13 @@
       <a href="/">
         <img src="/assets/logo.png" id="logo">
       </a>
-      <ul>
-        <li><a href='http://support.exosite.com'>Support</a></li>
-        <li><a href='http://status.exosite.com'>Status</a></li>
-      </ul>
     </div>
     <div class='right'>
-      <li><a href='https://github.com/exosite/api'>Contribute</a></li>
+      <ul>
+        <li><a href='http://status.exosite.com' id="status-text"><div id="status-icon"></div>Status</a></li>
+        <li><a href='https://support.exosite.com'>Support</a></li>
+        <li><a href='https://github.com/exosite/api'>Contribute</a></li>
+      </ul>
     </div>
   </div>
 
