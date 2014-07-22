@@ -1,3 +1,13 @@
+.header {
+  background: #5C5D60;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  padding: 15px 15px 10px 20px;
+}
+
+.header li a {
+  color: #e0e0e0;
+}
+
 #status-icon {
   background: #E0E0E0  ;
   width: 10px;
