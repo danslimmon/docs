@@ -200,8 +200,3 @@ a:hover,
 div.menubar > ul {
   margin-top: 20px; 
 }
-
-div.menu.section[role=flatdoc-menu] {
-  margin: 5px;
-  padding: 0px;
-}
