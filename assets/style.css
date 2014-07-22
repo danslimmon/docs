@@ -25,3 +25,7 @@ ul.topmenu a.active {
   margin-right: 0px;
   padding-right: 0px;
 }
+
+div.content img {
+  max-width: 100%;
+}
