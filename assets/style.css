@@ -1,12 +1,11 @@
 #status-icon {
-        background: none repeat scroll 0% 0% #008000  ;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        margin: 5px;
-        margin-left: 0;
-        float: left;
-        visibility: hidden;
+  background: #E0E0E0  ;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  margin-left: 0;
+  float: left;
 }
 
 ul.topmenu {
@@ -14,15 +13,15 @@ ul.topmenu {
 }
 
 ul.topmenu a {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
 }
 
 ul.topmenu a.active {
-    background: #ddd;
-    padding-left: 30px;
-    margin-left: -30px;
-    margin-right: 0px;
-    padding-right: 0px;
+  background: #ddd;
+  padding-left: 30px;
+  margin-left: -30px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
