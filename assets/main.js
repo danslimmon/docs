@@ -37,10 +37,16 @@
           }, 500);
         }
 
-        // put flatdoc menu inside heading
-        
         // strip trailing slash
         var path = document.location.pathname.replace(/\/$/, '');
+
+        // highlight selected top level menu
+        $('ul.topmenu li a').each(function() {
+          var href = $(this).attr('href');
+          if (path === href) {
+            $(this).addClass('active');
+          }
+        });
         
         // Status Indicator
         var sp = new StatusPage('bjrxlnv3yqfm');

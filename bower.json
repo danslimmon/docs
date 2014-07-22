@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "authors": [
+    "Dan Weaver <danweaver@exosite.com>"
+  ],
+  "description": "Exosite Documentation",
+  "main": "index.html",
+  "keywords": [
+    "Exosite",
+    "One",
+    "Platform",
+    "1P",
+    "Portals"
+  ],
+  "license": "MIT",
+  "homepage": "http://docs.exosite.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flatdoc": "~0.8.6"
+  }
+}

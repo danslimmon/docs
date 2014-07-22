@@ -1,202 +1,28 @@
-#logo {
-  height: 20px;
-  width: 97px;
-  float: left;
-  margin: 0px 0 -7px 0;
-  display: block;
-}
-
 #status-icon {
-    background: none repeat scroll 0% 0% #008000;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 5px;
-    margin-left: 0;
-    float: left;
-    visibility: hidden;
+        background: none repeat scroll 0% 0% #008000  ;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 5px;
+        margin-left: 0;
+        float: left;
+        visibility: hidden;
 }
 
-a.contribute {
-  font-size: 0.88em;
-  color: #9090aa;
-  padding-right: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
+ul.topmenu {
+  margin: 30px 0px 0px 30px;
 }
 
-a.contribute:hover {
-  color: #3a3a44;
+ul.topmenu a {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
 }
 
-a,
-.menu a,
-.menu a:visited {
-  color: #00adef;
-}
-
-a:hover,
-.menu a:hover {
-  color: #006d9f;
-}
-
-.menu a.active:after {
-  background: #00adef;
-}
-
-.button {
-  background: #00adef;
-  border:0;
-  padding: 5px 25px 7px;
-}
-
-.button:hover {
-  background: #007daf;
-}
-
-.menubar .level-1:not(:first-of-type) {
-  margin-top: 20px;
-}
-
-.menubar .level-0 {
-  margin: 0px;
-  padding: 0px;
-  border: 0px none;
-  outline: 0px none;
-  list-style: none outside none;
-  text-rendering: optimizelegibility;
-  color: #9090AA;
-  font-family: montserrat,sans-serif;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: bold;
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  padding: 30px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin-right: -30px;
-  text-decoration: none;
-}
-
-.content h1 {
-  font-size: 2em;
-}
-
-.content h2 {
-  color: #9090aa;
-}
-
-.content img {
-  width: 100%;
-  border: 1px solid #e7e7e7;
-}
-
-
-@media (min-width: 1180px) {
-
-  body:not(.no-literate) .content img {
-    width: 330px;
-    padding: 5px;
-    background: #ffffff;
-    border: 1px solid #f2f2f2;
-  }
-
-  body:not(.no-literate) .content p.img {
-    width: 380px;
-    padding: 0 20px;
-    float: right;
-    clear: right;
-  }
-
-  body:not(.no-literate) .content table {
-    width: 380px;
-    padding-left: 20px;
-    padding-right: 20px;
-    float: right;
-    clear: right;
-  }
-
-  body:not(.no-literate) .content > p,
-  body:not(.no-literate) .content > ul,
-  body:not(.no-literate) .content > ol,
-  body:not(.no-literate) .content > h4,
-  body:not(.no-literate) .content > h5,
-  body:not(.no-literate) .content > h6 {
-    float: left;
-    clear: none;
-  }
-
-  body:not(.no-literate) .content > pre + p,
-  body:not(.no-literate) .content > blockquote + p,
-  body:not(.no-literate) .content > p.img + p,
-  body:not(.no-literate) .content > pre + ul,
-  body:not(.no-literate) .content > blockquote + ul,
-  body:not(.no-literate) .content > p.img + ul,
-  body:not(.no-literate) .content > pre + ol,
-  body:not(.no-literate) .content > blockquote + ol,
-  body:not(.no-literate) .content > p.img + ol,
-  body:not(.no-literate) .content > pre + h4,
-  body:not(.no-literate) .content > blockquote + h4,
-  body:not(.no-literate) .content > p.img + h4,
-  body:not(.no-literate) .content > pre + h5,
-  body:not(.no-literate) .content > blockquote + h5,
-  body:not(.no-literate) .content > p.img + h5,
-  body:not(.no-literate) .content > pre + h6,
-  body:not(.no-literate) .content > blockquote + h6,
-  body:not(.no-literate) .content > p.img + h6 {
-    clear: none;
-  }
-
-  body:not(.no-literate) .content > pre + p,
-  body:not(.no-literate) .content > blockquote + p,
-  body:not(.no-literate) .content > pre + ul,
-  body:not(.no-literate) .content > blockquote + ul,
-  body:not(.no-literate) .content > pre + ol,
-  body:not(.no-literate) .content > blockquote + ol,
-  body:not(.no-literate) .content > pre + h4,
-  body:not(.no-literate) .content > blockquote + h4,
-  body:not(.no-literate) .content > pre + h5,
-  body:not(.no-literate) .content > blockquote + h5,
-  body:not(.no-literate) .content > pre + h6,
-  body:not(.no-literate) .content > blockquote + h6 {
-    clear: none;
-  }
-
-  body:not(.no-literate) .content > ul,
-  body:not(.no-literate) .content > ol {
-    width: 530px;
-  }
-}
-
-@media (min-width: 1340px) {
-  body:not(.no-literate) .content img {
-    width: 480px;
-    margin-right: -135px;
-  }
-}
-
-@media (min-width: 960px) {
- .header ul {
-    border-left: solid 1px #dfe2e7;
-    margin-left: 15px;
-  }
-}
-
-@media (max-width: 960px) {
-  .header ul {
-    padding-top: 10px;
-    clear: both;
-  }
-}
-
-@media (max-width: 1180px) {
-  .right {
-    display: none;
-  }
-}
-
-div.menubar > ul {
-  margin-top: 20px; 
+ul.topmenu a.active {
+    background: #ddd;
+    padding-left: 30px;
+    margin-left: -30px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
