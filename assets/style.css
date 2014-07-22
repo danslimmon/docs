@@ -29,3 +29,7 @@ ul.topmenu a.active {
 div.content img {
   max-width: 100%;
 }
+
+div.content ol li ol li {
+  list-style-type: lower-alpha;
+}
