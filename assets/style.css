@@ -43,3 +43,21 @@ div.content img {
 div.content ol li ol li {
   list-style-type: lower-alpha;
 }
+
+#logo {
+  width: 220px;
+  height: 60px;
+  background-size: 220px 60px;  
+}
+
+.header li a:hover {
+  color: #fff;
+}
+
+.header li {
+  border-left: none;
+}
+
+.header .links {
+  margin-top: 17px;
+}
