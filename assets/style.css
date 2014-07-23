@@ -8,6 +8,10 @@
   color: #e0e0e0;
 }
 
+.content-root a {
+  color:#41C4DC;
+}
+
 #status-icon {
   background: #E0E0E0  ;
   width: 10px;
