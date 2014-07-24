@@ -72,6 +72,5 @@ body, td, textarea, input {
 }
 
 body.no-literate .content pre > code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   letter-spacing: 0px;
 }
