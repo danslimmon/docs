@@ -66,3 +66,8 @@ div.content ol li ol li {
 .header .links {
   margin-top: 17px;
 }
+
+body.no-literate .content pre > code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  letter-spacing: 0px;
+}
